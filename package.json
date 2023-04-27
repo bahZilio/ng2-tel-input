@@ -1,0 +1,61 @@
+{
+  "name": "@wellrightalex/ng2-tel-input",
+  "version": "13.0.1",
+  "description": "An Angular 2 wrapper for intl-tel-input library",
+  "main": "ng2-tel-input.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "start": "http-server -c-1 .",
+    "build": "npm run build:esm2015 && npm run build:fesm2015 && npm run build:esm5 && npm run build:fesm5 && npm run build:umd && npm run build:umd:min",
+    "build:prod": "gulp",
+    "build:dev": "gulp buildDev",
+    "createTemp": "gulp createTemp",
+    "build:esm2015": "ngc -p tsconfig-esm2015.json",
+    "build:fesm2015": "rollup -c rollup-esm2015.conf.js",
+    "build:esm5": "ngc -p tsconfig-esm5.json",
+    "build:fesm5": "rollup -c rollup-esm5.conf.js",
+    "build:umd": "rollup -c rollup-umd.conf.js",
+    "build:umd:min": "uglifyjs dist/bundles/ng2-tel-input.umd.js -c -m -o dist/bundles/ng2-tel-input.umd.min.js",
+    "ls": "gulp --tasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellrightalex/ng2-tel-input.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/wellrightalex"
+  },
+  "keywords": [
+    "Angular",
+    "country",
+    "intl-tel-input"
+  ],
+  "author": "sonigaurav119@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/wellrightalex/ng2-tel-input.git"
+  },
+  "homepage": "https://github.com/wellrightalex/ng2-tel-input#readme",
+  "devDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/compiler": "^13.0.0",
+    "@angular/compiler-cli": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "del": "^6.1.1",
+    "es6-shim": "^0.35.5",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "reflect-metadata": "^0.1.13",
+    "rollup": "^2.0.2",
+    "rxjs": "^6.5.5 || ^7.4.0",
+    "typescript": ">= 4.4.4 < 4.7.0",
+    "uglify-js": "^3.8.0",
+    "zone.js": "^0.11.4"
+  },
+  "peerDependencies": {
+    "@angular/core": "^13.0.0"
+  },
+  "dependencies": {
+    "intl-tel-input": "^16.0.0"
+  }
+}

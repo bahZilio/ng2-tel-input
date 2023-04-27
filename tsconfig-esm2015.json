@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "lib": [ "es2015", "dom" ],
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "declaration": true,
+        "stripInternal": true,
+        "outDir": "./tmp/esm2015",
+        "rootDir": "./tmp"
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./tmp/public_api.ts"
+    ],
+    "angularCompilerOptions": {
+        "annotateForClosureCompiler": false,
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true,
+        "flatModuleOutFile": "ng2-tel-input.js",
+        "flatModuleId": "ng2-tel-input",
+    }
+}

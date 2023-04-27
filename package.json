@@ -1,6 +1,6 @@
 {
-  "name": "@wellrightalex/ng2-tel-input",
-  "version": "13.0.1",
+  "name": "@bahZilio/ng2-tel-input",
+  "version": "13.0.2",
   "description": "An Angular 2 wrapper for intl-tel-input library",
   "main": "ng2-tel-input.js",
   "scripts": {
@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wellrightalex/ng2-tel-input.git"
+    "url": "git+https://github.com/bahZilio/ng2-tel-input.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/wellrightalex"
+    "registry": "https://npm.pkg.github.com/bahZilio"
   },
   "keywords": [
     "Angular",
@@ -33,9 +33,9 @@
   "author": "sonigaurav119@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "git+https://github.com/wellrightalex/ng2-tel-input.git"
+    "url": "git+https://github.com/bahZilio/ng2-tel-input.git"
   },
-  "homepage": "https://github.com/wellrightalex/ng2-tel-input#readme",
+  "homepage": "https://github.com/bahZilio/ng2-tel-input#readme",
   "devDependencies": {
     "@angular/common": "^13.0.0",
     "@angular/compiler": "^13.0.0",

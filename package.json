@@ -1,6 +1,6 @@
 {
-  "name": "@bahZilio/ng2-tel-input",
-  "version": "13.0.2",
+  "name": "ng2-tel-input",
+  "version": "13.0.1",
   "description": "An Angular 2 wrapper for intl-tel-input library",
   "main": "ng2-tel-input.js",
   "scripts": {
